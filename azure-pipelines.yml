@@ -1,4 +1,9 @@
 trigger:
+- task: queryWorkItems@0
+  inputs:
+    queryId: 'bugquery'
+    maxThreshold: '0'
+    minThreshold: '0'
 - '*'
 
 variables:
